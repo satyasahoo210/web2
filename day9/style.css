@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-grow: 1;
+    border-bottom: 1px solid black;
+}
+
+/* .inputs {
+    height: 100px;
+} */
+
+.inputs input {
+    font-size: 32px;
+    border: none;
+}
+
+.inputs button {
+    font-size: 32px;
+}

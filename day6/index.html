@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* html {
+            border: 2px solid green;
+        }
+        body {
+            border: 2px solid red;
+        } */
+
+        .block {
+            background-color: cyan;
+            /* height: 50px; */
+            /* width: 50px;
+            border-radius: 50%; */
+
+            /* margin-bottom: 100px; */
+        }
+
+        .pills {
+            height: 30px;
+            width: 50px;
+            border-radius: 20px;
+            background-color: red;
+            display: inline-block;
+        }
+
+        span {
+            background-color: #4d4d4d;
+        }
+
+        p {
+            background-color: #aa7d7d;
+        }
+
+        span {
+            background-color: #ff0000;
+        }
+
+        .flex {
+            display: flex;
+            background-color: #ffff00;
+        }
+
+        .flex-pills {
+            height: 30px;
+            width: 50px;
+            border-radius: 20px;
+            background-color: gray;
+        }
+
+        .grid {
+            display: grid;
+            height: 100px;
+
+            grid-template-columns: 30px 50px auto 50px 30px;
+        }
+
+        .grid-pills {
+            background-color: #ff00ff;
+            border: 1px solid cyan;
+        }
+    </style>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="onload()">
+    <div class="container">
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, accusamus.</span>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ad.</p>
+
+        <div class="block">
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+            <div class="pills"></div>
+        </div>
+
+        <div class="flex">
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+            <div class="flex-pills"></div>
+
+        </div>
+
+        <div class="grid">
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+            <div class="grid-pills"></div>
+
+        </div>
+    </div>
+
+    <script>
+        function onload() {
+            const container = document.querySelector('.container')
+            console.log('The container ', container)
+        }
+    </script>
+</body>
+
+</html>

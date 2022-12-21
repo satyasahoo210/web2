@@ -36,5 +36,6 @@ console.log(element.textContent)
  * `universal` selector - *
  * `id` selector - #id
  * `class` selector - .className
- * `attribute` selector = [attribute-name="value"]
+ * `attribute` selector - [attribute-name="value"]
+ * `tag selector` - tag_name
  */
